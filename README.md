@@ -11,70 +11,22 @@ The platform supports multiple report types including CBC, Lipid Profile, Thyroi
 
 MedIntel AI analyzes medical lab reports using Groq's Llama 3.3 70B, LangChain RAG, and Supabase — giving patients clear, actionable insights from their blood work.
 ---
+## ✨ Key Features
 
-✨ Key Features
-##📄 Smart Medical Report Analysis
-- Upload medical reports in PDF format
-- Automatic report validation and text extraction
-- AI-powered biomarker identification and interpretation
-- Plain-language explanations for non-technical users
-- Detection of abnormal and critical health parameters
+| Feature                                | Description                                                                                                                                                                                   |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📄 **Smart Medical Report Analysis**   | Upload medical reports in PDF format, automatically extract text, identify biomarkers, detect abnormal/critical values, and generate patient-friendly explanations.                           |
+| 🔍 **Report Type Detection Agent**     | Automatically classifies reports such as CBC, Lipid Profile, Thyroid Profile, Vitamin Reports, Blood Sugar Reports, Liver Function Tests (LFT), and Kidney Function Tests (KFT).              |
+| 🩺 **Medical Analysis Agent**          | Extracts biomarkers and values, identifies abnormalities, generates medical summaries, provides easy-to-understand explanations, and highlights potential health concerns.                    |
+| 💬 **RAG-Powered Medical Chat**        | Ask questions directly about uploaded reports using Retrieval-Augmented Generation (RAG), semantic search, and FAISS vector retrieval for context-aware responses.                            |
+| 📈 **Trend Analysis Agent**            | Compares multiple reports over time, visualizes biomarker progression, identifies health trends, and provides interactive analytics through Plotly dashboards.                                |
+| 🧑‍⚕️ **Doctor Preparation Agent**     | Generates personalized consultation questions, highlights key biomarkers, and helps users prepare effectively for doctor visits.                                                              |
+| ⚠️ **Risk Assessment Agent**           | Evaluates potential health risks, detects concerning biomarkers, provides risk scores, and displays early warning indicators through visual dashboards.                                       |
+| 📊 **Interactive Health Dashboard**    | Presents health summaries, biomarker visualizations, risk gauges, and interactive charts for comprehensive health monitoring.                                                                 |
+| 🔐 **Secure Authentication & Storage** | Supports user authentication with Supabase Auth, secure report storage, chat session history, and Row Level Security (RLS) for data protection.                                               |
+| 🧠 **Multi-Agent AI Architecture**     | Combines specialized AI agents for report analysis, medical chat, trend analysis, doctor preparation, recommendations, and risk assessment within a unified healthcare intelligence platform. |
 
-##🧠 Multi-Agent AI Architecture
-#🔍 Report Type Detection Agent
-
-- Automatically identifies report categories such as:
-
-- CBC (Complete Blood Count)
-- Lipid Profile
-- Thyroid Profile
-- Vitamin Reports
-- Blood Sugar Reports
-- Liver Function Tests
-- Kidney Function Tests
-
-##🩺 Medical Analysis Agent
-- Extracts biomarkers and values
-- Identifies abnormal parameters
-- Generates medical summaries
-- Provides patient-friendly explanations
-- Highlights potential health concerns
-
-##💬 RAG-Powered Medical Chat
- - Ask questions directly about uploaded reports
-- Semantic search using FAISS Vector Database
-- Context-aware medical Q&A
-- Instant retrieval of report-specific information
-
-##📈 Trend Analysis Agent
-- Compare multiple reports over time
-- Visualize biomarker progression
-- Identify improving or worsening health trends
-- Interactive Plotly-based analytics dashboard
-
-##🧑‍⚕️ Doctor Preparation Agent
-- Generates personalized doctor consultation questions
-- Highlights important biomarkers to discuss
-- Helps patients prepare for medical appointments
-
-##⚠️ Risk Assessment Agent
-- Health risk scoring system
-- Detection of potentially concerning biomarkers
-- Visual risk assessment dashboard
-- Early warning indicators for health monitoring
-
-##📊 Interactive Dashboard
-- Health summary overview
-- Biomarker status visualization
-- Risk assessment gauges
-- Interactive charts and analytics
-
-##🔐 Secure Authentication & Storage
-- User authentication with Supabase Auth
-- Secure cloud-based report storage
-- Session management and chat history
-- Role-based access control with Row Level Security (RLS)
-.....
+---
 ## 🚀 Quick Start
 
 ### 1. Clone & Enter the Project
