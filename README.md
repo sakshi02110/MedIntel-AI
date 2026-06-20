@@ -13,59 +13,68 @@ MedIntel AI analyzes medical lab reports using Groq's Llama 3.3 70B, LangChain R
 ---
 
 ✨ Key Features
-📄 Smart Medical Report Analysis
-Upload medical reports in PDF format
-Automatic report validation and text extraction
-AI-powered biomarker identification and interpretation
-Plain-language explanations for non-technical users
-Detection of abnormal and critical health parameters
-🧠 Multi-Agent AI Architecture
-🔍 Report Type Detection Agent
+##📄 Smart Medical Report Analysis
+- Upload medical reports in PDF format
+- Automatic report validation and text extraction
+- AI-powered biomarker identification and interpretation
+- Plain-language explanations for non-technical users
+- Detection of abnormal and critical health parameters
 
-Automatically identifies report categories such as:
+##🧠 Multi-Agent AI Architecture
+#🔍 Report Type Detection Agent
 
-CBC (Complete Blood Count)
-Lipid Profile
-Thyroid Profile
-Vitamin Reports
-Blood Sugar Reports
-Liver Function Tests
-Kidney Function Tests
-🩺 Medical Analysis Agent
-Extracts biomarkers and values
-Identifies abnormal parameters
-Generates medical summaries
-Provides patient-friendly explanations
-Highlights potential health concerns
-💬 RAG-Powered Medical Chat
-Ask questions directly about uploaded reports
-Semantic search using FAISS Vector Database
-Context-aware medical Q&A
-Instant retrieval of report-specific information
-📈 Trend Analysis Agent
-Compare multiple reports over time
-Visualize biomarker progression
-Identify improving or worsening health trends
-Interactive Plotly-based analytics dashboard
-🧑‍⚕️ Doctor Preparation Agent
-Generates personalized doctor consultation questions
-Highlights important biomarkers to discuss
-Helps patients prepare for medical appointments
-⚠️ Risk Assessment Agent
-Health risk scoring system
-Detection of potentially concerning biomarkers
-Visual risk assessment dashboard
-Early warning indicators for health monitoring
-📊 Interactive Dashboard
-Health summary overview
-Biomarker status visualization
-Risk assessment gauges
-Interactive charts and analytics
-🔐 Secure Authentication & Storage
-User authentication with Supabase Auth
-Secure cloud-based report storage
-Session management and chat history
-Role-based access control with Row Level Security (RLS)
+- Automatically identifies report categories such as:
+
+- CBC (Complete Blood Count)
+- Lipid Profile
+- Thyroid Profile
+- Vitamin Reports
+- Blood Sugar Reports
+- Liver Function Tests
+- Kidney Function Tests
+
+##🩺 Medical Analysis Agent
+- Extracts biomarkers and values
+- Identifies abnormal parameters
+- Generates medical summaries
+- Provides patient-friendly explanations
+- Highlights potential health concerns
+
+##💬 RAG-Powered Medical Chat
+ - Ask questions directly about uploaded reports
+- Semantic search using FAISS Vector Database
+- Context-aware medical Q&A
+- Instant retrieval of report-specific information
+
+##📈 Trend Analysis Agent
+- Compare multiple reports over time
+- Visualize biomarker progression
+- Identify improving or worsening health trends
+- Interactive Plotly-based analytics dashboard
+
+##🧑‍⚕️ Doctor Preparation Agent
+- Generates personalized doctor consultation questions
+- Highlights important biomarkers to discuss
+- Helps patients prepare for medical appointments
+
+##⚠️ Risk Assessment Agent
+- Health risk scoring system
+- Detection of potentially concerning biomarkers
+- Visual risk assessment dashboard
+- Early warning indicators for health monitoring
+
+##📊 Interactive Dashboard
+- Health summary overview
+- Biomarker status visualization
+- Risk assessment gauges
+- Interactive charts and analytics
+
+##🔐 Secure Authentication & Storage
+- User authentication with Supabase Auth
+- Secure cloud-based report storage
+- Session management and chat history
+- Role-based access control with Row Level Security (RLS)
+.....
 ## 🚀 Quick Start
 
 ### 1. Clone & Enter the Project
